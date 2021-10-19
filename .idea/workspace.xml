@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d352c167-a214-4bfe-b7eb-4372bab6e48d" name="Changes" comment="" />
+    <list default="true" id="d352c167-a214-4bfe-b7eb-4372bab6e48d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigbasket/get_ingredients.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigbasket/get_ingredients.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,10 +43,14 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bigbasket" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.get_ingredients">
     <configuration name="Selforder" type="PythonConfigurationType" factoryName="Python">
@@ -105,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634624628565</updated>
       <workItem from="1634624630008" duration="1271000" />
-      <workItem from="1634630312510" duration="4030000" />
+      <workItem from="1634630312510" duration="4676000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1634625169795</created>
@@ -135,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634634503153</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first commit demo">
+      <created>1634635266375</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634635266375</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +173,8 @@
     </ignored-roots>
     <MESSAGE value="Second Commit" />
     <MESSAGE value="50% done Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="50% done Commit" />
+    <MESSAGE value="first commit demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit demo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Selforder$request.coverage" NAME="request Coverage Results" MODIFIED="1634634319757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
