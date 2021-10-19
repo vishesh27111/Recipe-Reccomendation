@@ -24,7 +24,7 @@ class Get_Shopping_List(Resource):
         items[item_id] = args
 
         with open('bigbasket/items.json', 'w') as fp:
-                json.dump(items, fp, indent=4)
+            json.dump(items, fp, indent=4)
 
         return jsonify({item_id: args})
 
@@ -36,7 +36,7 @@ class Checkout(Resource):
     def get(self):
         bigbasket.main()
         with open('bigbasket/items.json', 'w') as fp:
-                json.dump({}, fp, indent=4)
+            json.dump({}, fp, indent=4)
 
         return jsonify({'output': 'DONE SUCESSFULLY'})
 
