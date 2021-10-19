@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d352c167-a214-4bfe-b7eb-4372bab6e48d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bigbasket/get_ingredients.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigbasket/get_ingredients.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigbasket/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigbasket/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -115,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634624628565</updated>
       <workItem from="1634624630008" duration="1271000" />
-      <workItem from="1634630312510" duration="8111000" />
+      <workItem from="1634630312510" duration="8361000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1634625169795</created>
@@ -173,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634639227968</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="json issue solved">
+      <created>1634639353355</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634639353355</updated>
+    </task>
+    <task id="LOCAL-00010" summary="json issue solved">
+      <created>1634639389164</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1634639389165</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

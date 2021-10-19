@@ -50,6 +50,9 @@ class Checkout(Resource):
 
         go_to_checkout(browser)
         # checkout(browser)
+        with open('bigbasket/items.json', 'w') as fp:
+                json.dump({}, fp, indent=4)
+
         return jsonify({'output': 'DONE SUCESSFULLY'})
 
 
