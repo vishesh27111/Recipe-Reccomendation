@@ -76,7 +76,7 @@ def checkout(browser):
 
 def get_shopping_list():
     print(str(datetime.datetime.now()), ': Getting shopping list')
-    with open('shopping_list', 'r') as f:
+    with open('bigbasket/shopping_list', 'r') as f:
         f1 = f.readlines()
         shopping_list = []
         quantity_list = []
