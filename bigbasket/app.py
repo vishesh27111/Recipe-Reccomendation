@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from flask_restful import Api, reqparse, Resource
-from bigbasket import *
+import bigbasket
 import json
 
 app = Flask(__name__)
@@ -34,7 +34,7 @@ api.add_resource(Get_Shopping_List, "/self_order/shopping_list/<string:item_id>"
 
 class Checkout(Resource):
     def get(self):
-        main()
+        bigbasket.main()
         with open('bigbasket/items.json', 'w') as fp:
                 json.dump({}, fp, indent=4)
 
