@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d352c167-a214-4bfe-b7eb-4372bab6e48d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bigbasket/bigbasket.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigbasket/bigbasket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigbasket/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/bigbasket/items.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634624628565</updated>
       <workItem from="1634624630008" duration="1271000" />
-      <workItem from="1634630312510" duration="8593000" />
+      <workItem from="1634630312510" duration="9239000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1634625169795</created>
@@ -202,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634639683492</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="json issue solved">
+      <created>1634639886670</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1634639886670</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +239,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="json issue solved" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Selforder$get_ingredients.coverage" NAME="get_ingredients Coverage Results" MODIFIED="1634666027084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Selforder$request.coverage" NAME="get_ingredients Coverage Results" MODIFIED="1634639116903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
