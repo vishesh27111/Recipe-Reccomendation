@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d352c167-a214-4bfe-b7eb-4372bab6e48d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bigbasket/items.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigbasket/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigbasket/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bigbasket/get_ingredients.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigbasket/get_ingredients.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634624628565</updated>
       <workItem from="1634624630008" duration="1271000" />
-      <workItem from="1634630312510" duration="7816000" />
+      <workItem from="1634630312510" duration="8111000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1634625169795</created>
@@ -163,7 +159,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634635952545</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="json issue solved">
+      <created>1634639209072</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634639209072</updated>
+    </task>
+    <task id="LOCAL-00008" summary="json issue solved">
+      <created>1634639227968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634639227968</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,9 +198,10 @@
     <MESSAGE value="Second Commit" />
     <MESSAGE value="50% done Commit" />
     <MESSAGE value="first commit demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit demo" />
+    <MESSAGE value="json issue solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="json issue solved" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Selforder$request.coverage" NAME="get_ingredients Coverage Results" MODIFIED="1634639005222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Selforder$request.coverage" NAME="get_ingredients Coverage Results" MODIFIED="1634639116903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
