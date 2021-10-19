@@ -93,3 +93,21 @@ def add(item):
     f.write(item)
     f.close()
     return
+
+def main():
+    # browser = webdriver.Chrome()
+    options = webdriver.ChromeOptions()
+    options.add_argument("headless")
+    browser = webdriver.Chrome(options=options)
+    browser.get('https://www.bigbasket.com/')
+    # browser.get('https://www.bigbasket.com/auth/login/')
+    # login(browser)
+    shopping_list, quantity_list = get_shopping_list()
+    shopping_list = [s.rstrip() for s in shopping_list]
+    for item, quantity in zip(shopping_list, quantity_list):
+        search(browser, item)
+        add_item(browser, quantity)
+        browser.get('https://www.bigbasket.com/')
+
+    go_to_checkout(browser)
+    # checkout(browser)
