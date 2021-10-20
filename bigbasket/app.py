@@ -12,6 +12,10 @@ shoppinglist.add_argument('quantity', type=str, required=True)
 
 items = json.load(open('bigbasket/items.json'))
 
+@app.route('/')
+def msg():
+    return 'hey'
+
 @app.route('/self_order/shopping_list', methods = ['GET'])
 def get():
     item_id = str(request.args['item_id'])
@@ -48,4 +52,4 @@ class Checkout(Resource):
 api.add_resource(Checkout, '/self_order/checkout')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5444 ,debug=True)

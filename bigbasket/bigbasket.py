@@ -1,7 +1,7 @@
 from selenium import webdriver
 import re
 import time
-import datetime
+# import datetime
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -17,29 +17,31 @@ def login(browser):
     username = browser.find_element_by_id('otpEmail')
     username.send_keys('9374713635')
     browser.find_element_by_css_selector('button.btn.btn-default.login-btn').click()
-    ################################ otp flutter #########################################
+    # otp flutter
     time.sleep(25)
-    print(str(datetime.datetime.now()), ' : Logged in')
+    # print(str(datetime.datetime.now()), ' : Logged in')
     return
 
 
 def search(browser, keyword):
-    print(str(datetime.datetime.now()), ' : Searching for ', keyword)
+    # print(str(datetime.datetime.now()), ' : Searching for ', keyword)
     search_box = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, 'input')))
-    print(str(datetime.datetime.now()), ' : Got search box')
+    # print(str(datetime.datetime.now()), ' : Got search box')
     search_box.clear()
-    print(str(datetime.datetime.now()), ' : Search box cleared')
+    # print(str(datetime.datetime.now()), ' : Search box cleared')
     search_box.send_keys(keyword)
-    print(str(datetime.datetime.now()), ' : Sent keys')
-    search = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button.btn.btn-default.bb-search')))
-    search.click()
-    print(str(datetime.datetime.now()), ' : Search form submitted')
+    # print(str(datetime.datetime.now()), ' : Sent keys')
+    search_ = WebDriverWait(browser, 10).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, 'button.btn.btn-default.bb-search')))
+    search_.click()
+    # print(str(datetime.datetime.now()), ' : Search form submitted')
     return
 
 
 def add_item(browser, quantity):
-    print(str(datetime.datetime.now()), ' : Adding item to cart')
-    html_list = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button.btn.btn-add.col-xs-9')))
+    # print(str(datetime.datetime.now()), ' : Adding item to cart')
+    html_list = WebDriverWait(browser, 10).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, 'button.btn.btn-add.col-xs-9')))
     html_list.click()
     if quantity > 1:
         for i in range(quantity - 1):
@@ -47,12 +49,12 @@ def add_item(browser, quantity):
             time.sleep(1.5)
             html_list.click()
 
-    print(str(datetime.datetime.now()), f' : Added {quantity}')
+    # print(str(datetime.datetime.now()), ' : Added {}'.format(quantity))
     return
 
 
 def get_my_total(browser):
-    print(str(datetime.datetime.now()), ' : Getting total amount')
+    # print(str(datetime.datetime.now()), ' : Getting total amount')
     my_total = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, 'finalTotal')))
     my_total = my_total.get_attribute('textContent')
     my_total = re.findall(r'\d+', my_total)
@@ -61,13 +63,13 @@ def get_my_total(browser):
 
 
 def go_to_checkout(browser):
-    print(str(datetime.datetime.now()), ' : Going to the checkout page')
+    # print(str(datetime.datetime.now()), ' : Going to the checkout page')
     browser.get('https://www.bigbasket.com/basket/?ver=1')
     return
 
 
 def checkout(browser):
-    print(str(datetime.datetime.now()), ' : Checking out')
+    # print(str(datetime.datetime.now()), ' : Checking out')
     checkout_button = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, 'checkout')))
     time.sleep(1)
     checkout_button.click()
@@ -75,7 +77,7 @@ def checkout(browser):
 
 
 def get_shopping_list():
-    print(str(datetime.datetime.now()), ': Getting shopping list')
+    # print(str(datetime.datetime.now()), ': Getting shopping list')
     with open('bigbasket/shopping_list', 'r') as f:
         f1 = f.readlines()
         shopping_list = []
@@ -87,12 +89,13 @@ def get_shopping_list():
 
 
 def add(item):
-    print(str(datetime.datetime.now()), ' : Adding item to shopping list')
+    # print(str(datetime.datetime.now()), ' : Adding item to shopping list')
     f = open('shopping_list', 'a')
     item = item + '\n'
     f.write(item)
     f.close()
     return
+
 
 def main():
     # browser = webdriver.Chrome()
