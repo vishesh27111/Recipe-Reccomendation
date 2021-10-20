@@ -1,3 +1,3 @@
 # Flask_ML_RR
 
-Integation of bigbasket
+This is the repository that integrates pyhton scripts to the frontend created in flutter 
