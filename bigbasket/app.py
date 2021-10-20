@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from flask_restful import Api, reqparse, Resource
 import bigbasket
 import json
@@ -12,8 +12,12 @@ shoppinglist.add_argument('quantity', type=str, required=True)
 
 items = json.load(open('bigbasket/items.json'))
 
+@app.route('/self_order/shopping_list', methods = ['GET'])
+def get():
+    item_id = str(request.args['item_id'])
+    return {item_id: items[item_id]}
 
-class Get_Shopping_List(Resource):
+class Add_Shopping_List(Resource):
 
     def get(self, item_id):
         return items[item_id]
@@ -29,7 +33,7 @@ class Get_Shopping_List(Resource):
         return jsonify({item_id: args})
 
 
-api.add_resource(Get_Shopping_List, "/self_order/shopping_list/<string:item_id>")
+api.add_resource(Add_Shopping_List, "/self_order/add_shopping_list/<string:item_id>")
 
 
 class Checkout(Resource):
