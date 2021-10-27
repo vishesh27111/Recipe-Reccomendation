@@ -19,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Aryan" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -147,7 +152,7 @@
       <workItem from="1634721681203" duration="299000" />
       <workItem from="1634794494212" duration="91000" />
       <workItem from="1634796368670" duration="120000" />
-      <workItem from="1635311303583" duration="3004000" />
+      <workItem from="1635311303583" duration="3358000" />
     </task>
     <task id="LOCAL-00001" summary="modified get function">
       <created>1634713482040</created>
@@ -170,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635314158834</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created one file for both yolo and bigbasket">
+      <created>1635314481670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635314481670</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
