@@ -295,7 +295,7 @@ def run(weights=ROOT / 'yolov5s.pt',  # model.pt path(s)
     return final_str
 
 
-source = sorted(os.listdir('/yolov5_flask_integration/images/'), reverse=True)[0]
+source = sorted(os.listdir('/Users/aryan/Desktop/Python/yolo_v5/Flask_API/yolov5_flask_integration/images'), reverse=True)[0]
 
 
 def parse_opt():
