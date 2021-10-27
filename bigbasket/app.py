@@ -49,7 +49,7 @@ class Checkout(Resource):
         with open('bigbasket/items.json', 'w') as fp:
             json.dump({}, fp, indent=4)
 
-        return jsonify({'message': 'DONE SUCESSFULLY'})
+        return jsonify({'message':'DONE SUCESSFULLY'})
 
 
 api.add_resource(Checkout, '/self_order/checkout')
