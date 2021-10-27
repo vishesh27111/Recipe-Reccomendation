@@ -16,10 +16,13 @@ items = json.load(open('bigbasket/items.json'))
 def msg():
     return 'hey'
 
-@app.route('/self_order/shopping_list', methods = ['GET'])
+@app.route('/self_order/shopping_list/', methods = ['GET'])
 def get():
     item_id = str(request.args['item_id'])
-    return {item_id: items[item_id]}
+    try:
+        return {item_id: items[item_id]}
+    except:
+        return {'message':'Item not in list'}
 
 class Add_Shopping_List(Resource):
 
@@ -46,10 +49,10 @@ class Checkout(Resource):
         with open('bigbasket/items.json', 'w') as fp:
             json.dump({}, fp, indent=4)
 
-        return jsonify({'output': 'DONE SUCESSFULLY'})
+        return jsonify({'message': 'DONE SUCESSFULLY'})
 
 
 api.add_resource(Checkout, '/self_order/checkout')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5444 ,debug=True)
+    app.run(host='192.168.1.7', port=5441 ,debug=True)
