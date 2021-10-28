@@ -35,4 +35,4 @@ class Detection(Resource):
 
 api.add_resource(Detection, '/yolo/detection')
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='192.168.1.7', port=5001, debug=True)

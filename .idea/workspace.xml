@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ee39c6e-87f8-4b6e-9f82-70141f63c99b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigbasket/get_ingredients.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigbasket/get_ingredients.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigbasket/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/bigbasket/items.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/test111.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov5_flask_integration/images/test111.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/detect.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +32,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/yolov5_flask_integration/yolov5/detect.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/yolov5_flask_integration/yolov5/__init__.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bigbasket/app.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/yolov5_flask_integration/yolov5/app.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1zl0PTb4B3K2gSZCk82QQ9ivWFn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,7 +61,7 @@
       <recent name="$PROJECT_DIR$/yolov5_flask_integration/yolov5/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app_y">
+  <component name="RunManager" selected="Python.app">
     <configuration name="rest-api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -200,9 +202,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.app_y" />
         <item itemvalue="HTTP Request.rest-api#1" />
-        <item itemvalue="Python.app" />
         <item itemvalue="Python.get_ingredients" />
       </list>
     </recent_temporary>
@@ -221,7 +223,7 @@
       <workItem from="1635312829481" duration="2947000" />
       <workItem from="1635350118397" duration="2346000" />
       <workItem from="1635357692750" duration="1000" />
-      <workItem from="1635395406836" duration="1569000" />
+      <workItem from="1635395406836" duration="2362000" />
     </task>
     <task id="LOCAL-00001" summary="modified get function">
       <created>1634713482040</created>
@@ -265,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635356391672</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Refined yolo v3">
+      <created>1635397142537</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635397142537</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,13 +285,14 @@
     <MESSAGE value="__init__ removed" />
     <MESSAGE value="Refined" />
     <MESSAGE value="Refinedv2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refinedv2" />
+    <MESSAGE value="Refined yolo v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined yolo v3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Selforder$app__1_.coverage" NAME="app_y Coverage Results" MODIFIED="1635357116612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov5_flask_integration" />
     <SUITE FILE_PATH="coverage/Selforder$detect.coverage" NAME="detect Coverage Results" MODIFIED="1635396567306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
-    <SUITE FILE_PATH="coverage/Selforder$app.coverage" NAME="app Coverage Results" MODIFIED="1635396363817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Selforder$app.coverage" NAME="app Coverage Results" MODIFIED="1635397294525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Selforder$get_ingredients.coverage" NAME="get_ingredients Coverage Results" MODIFIED="1635395619178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Selforder$app_y.coverage" NAME="app_y Coverage Results" MODIFIED="1635396743371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/Selforder$app_y.coverage" NAME="app_y Coverage Results" MODIFIED="1635397292311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
   </component>
 </project>
