@@ -2,7 +2,7 @@ import requests
 
 BASE = "http://192.168.1.7:5000/"
 
-details = {"item": "hello", "quantity": "21"}
+details = {"item": "helloworld", "quantity": "21"}
 
 response = requests.put(BASE + "/self_order/add_shopping_list/10", details)
 

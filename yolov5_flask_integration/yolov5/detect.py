@@ -15,7 +15,6 @@ import cv2
 import numpy as np
 import torch
 import torch.backends.cudnn as cudnn
-from googleapiclient.discovery import build
 
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[0]  # YOLOv5 root directory
@@ -233,30 +232,6 @@ def run(weights=ROOT / 'yolov5s.pt',  # model.pt path(s)
             # print(f'{s}Done. ({t3 - t2:.3f}s)')
 
             final_str = ' '.join(temp)
-            print(final_str)
-            query = "Recipe with " + final_str + "as Ingridents"
-            api_key = "AIzaSyD5-rQrP9eUTa4vP5N1d587mlR1B2XUGPk"
-
-            youtube = build('youtube', 'v3', developerKey=api_key)
-
-            request = youtube.search().list(
-                part="snippet",
-                q=query,
-                maxResults="5").execute()
-
-            # print(request)
-            videos = request['items']
-            for video in videos:
-                final = video['snippet']['title']
-                videoid = video['id']['videoId']
-                print(final)
-                link = "LINK: https://www.youtube.com/watch?v=" + videoid
-                print(link)
-                print("\n")
-                print("___________________________________________________________________________")
-                print("\n")
-
-
 
             # Stream results
             im0 = annotator.result()
@@ -295,13 +270,13 @@ def run(weights=ROOT / 'yolov5s.pt',  # model.pt path(s)
     return final_str
 
 
-source = sorted(os.listdir('/yolov5_flask_integration/images/'), reverse=True)[0]
+source = sorted(os.listdir('yolov5_flask_integration/images/'), reverse=True)[0]
 
 
 def parse_opt():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', nargs='+', type=str, default='/Users/aryan/Desktop/Python/yolo_v5/best_final.pt', help='model path(s)')
-    parser.add_argument('--source', type=str, default=f'images/{source}', help='file/dir/URL/glob, 0 for webcam')
+    parser.add_argument('--weights', nargs='+', type=str, default='yolov5_flask_integration/best.pt', help='model path(s)')
+    parser.add_argument('--source', type=str, default=f'yolov5_flask_integration/images/{source}', help='file/dir/URL/glob, 0 for webcam')
     parser.add_argument('--imgsz', '--img', '--img-size', nargs='+', type=int, default=[720], help='inference size h,w')
     parser.add_argument('--conf-thres', type=float, default=0.25, help='confidence threshold')
     parser.add_argument('--iou-thres', type=float, default=0.45, help='NMS IoU threshold')
