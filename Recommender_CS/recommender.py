@@ -9,7 +9,7 @@ def combine_features(row):
 
 
 def recommender():
-    df = pd.read_csv('/Users/aryan/Desktop/Python/yolo_v5/Flask_API/Recommender_CS/clean_data.csv')
+    df = pd.read_csv('Recommender_CS/clean_data.csv')
     print(df.columns)
 
     features = ['Course', 'Cuisine', 'Diet']
