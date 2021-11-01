@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ee39c6e-87f8-4b6e-9f82-70141f63c99b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/rest-api.http" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp/test111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp10/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp11/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp12/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp13/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp14/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp15/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp16/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp19/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp4/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp5/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp6/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp7/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp8/11111.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5_flask_integration/yolov5/runs/detect/exp9/11111.jpeg" beforeDir="false" />
+    <list default="true" id="5ee39c6e-87f8-4b6e-9f82-70141f63c99b" name="Changes" comment="Created one file for both yolo and bigbasket">
+      <change afterPath="$PROJECT_DIR$/Recommender_CS/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommender_CS/clean_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recommender_CS/recommender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,18 +53,19 @@
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="HTTP Request" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Recommender_CS" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/yolov5_flask_integration/images" />
       <recent name="$PROJECT_DIR$/yolov5_flask_integration" />
       <recent name="$PROJECT_DIR$/yolov5_flask_integration/yolov5/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.detect">
+  <component name="RunManager" selected="Python.app (1)">
     <configuration name="rest-api#1 (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/rest-api.http" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -86,62 +75,20 @@
     <configuration name="rest-api#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Selforder" />
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Flask_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Recommender_CS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bigbasket/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app_y" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Selforder" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yolov5_flask_integration/yolov5/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Recommender_CS/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,21 +129,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="recommender" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Flask_API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Recommender_CS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Recommender_CS/recommender.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="HTTP Request.rest-api#1" />
-      <item itemvalue="Python.detect" />
-      <item itemvalue="Python.app" />
-      <item itemvalue="Python.app_y" />
-      <item itemvalue="HTTP Request.rest-api#2" />
       <item itemvalue="HTTP Request.rest-api#1 (1)" />
+      <item itemvalue="HTTP Request.rest-api#1" />
+      <item itemvalue="HTTP Request.rest-api#2" />
+      <item itemvalue="Python.detect" />
+      <item itemvalue="Python.recommender" />
+      <item itemvalue="Python.app (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.recommender" />
         <item itemvalue="HTTP Request.rest-api#1 (1)" />
         <item itemvalue="HTTP Request.rest-api#2" />
         <item itemvalue="HTTP Request.rest-api#1" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.app_y" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +184,7 @@
       <workItem from="1635350118397" duration="2346000" />
       <workItem from="1635357692750" duration="1000" />
       <workItem from="1635395406836" duration="3644000" />
+      <workItem from="1635747225294" duration="1750000" />
     </task>
     <task id="LOCAL-00001" summary="modified get function">
       <created>1634713482040</created>
@@ -292,6 +262,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modified get function" />
     <MESSAGE value="__init__ removed" />
@@ -300,11 +282,25 @@
     <MESSAGE value="Refined yolo v3" />
     <option name="LAST_COMMIT_MESSAGE" value="Refined yolo v3" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Recommender_CS/app.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Selforder$app__1_.coverage" NAME="app_y Coverage Results" MODIFIED="1635357116612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov5_flask_integration" />
-    <SUITE FILE_PATH="coverage/Selforder$detect.coverage" NAME="detect Coverage Results" MODIFIED="1635402393355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
-    <SUITE FILE_PATH="coverage/Selforder$app.coverage" NAME="app Coverage Results" MODIFIED="1635401372810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Selforder$get_ingredients.coverage" NAME="get_ingredients Coverage Results" MODIFIED="1635395619178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Selforder$app.coverage" NAME="app Coverage Results" MODIFIED="1634707379290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bigbasket" />
     <SUITE FILE_PATH="coverage/Selforder$app_y.coverage" NAME="app_y Coverage Results" MODIFIED="1635397292311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/Selforder$detect.coverage" NAME="detect Coverage Results" MODIFIED="1635402393355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/Flask_API$app.coverage" NAME="app Coverage Results" MODIFIED="1635313191877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bigbasket" />
+    <SUITE FILE_PATH="coverage/Selforder$get_ingredients.coverage" NAME="get_ingredients Coverage Results" MODIFIED="1634713970360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bigbasket" />
+    <SUITE FILE_PATH="coverage/Selforder$app__1_.coverage" NAME="app_y Coverage Results" MODIFIED="1635357116612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov5_flask_integration" />
+    <SUITE FILE_PATH="coverage/Flask_API$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1635748874960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommender_CS" />
+    <SUITE FILE_PATH="coverage/Flask_API$recommender.coverage" NAME="recommender Coverage Results" MODIFIED="1635748964805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommender_CS" />
   </component>
 </project>
