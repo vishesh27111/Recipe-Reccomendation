@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ee39c6e-87f8-4b6e-9f82-70141f63c99b" name="Changes" comment="Created one file for both yolo and bigbasket">
-      <change afterPath="$PROJECT_DIR$/Recommender_CS/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recommender_CS/clean_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recommender_CS/recommender.py" afterDir="false" />
+    <list default="true" id="5ee39c6e-87f8-4b6e-9f82-70141f63c99b" name="Changes" comment="added recommender api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Aryan" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -184,7 +186,8 @@
       <workItem from="1635350118397" duration="2346000" />
       <workItem from="1635357692750" duration="1000" />
       <workItem from="1635395406836" duration="3644000" />
-      <workItem from="1635747225294" duration="1750000" />
+      <workItem from="1635747225294" duration="2244000" />
+      <workItem from="1635757706413" duration="169000" />
     </task>
     <task id="LOCAL-00001" summary="modified get function">
       <created>1634713482040</created>
@@ -256,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635401708291</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added recommender api">
+      <created>1635749312351</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635749312351</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,14 +290,15 @@
     <MESSAGE value="Refined" />
     <MESSAGE value="Refinedv2" />
     <MESSAGE value="Refined yolo v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined yolo v3" />
+    <MESSAGE value="added recommender api" />
+    <option name="LAST_COMMIT_MESSAGE" value="added recommender api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Recommender_CS/app.py</url>
-          <line>24</line>
+          <line>26</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -300,7 +311,7 @@
     <SUITE FILE_PATH="coverage/Flask_API$app.coverage" NAME="app Coverage Results" MODIFIED="1635313191877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bigbasket" />
     <SUITE FILE_PATH="coverage/Selforder$get_ingredients.coverage" NAME="get_ingredients Coverage Results" MODIFIED="1634713970360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bigbasket" />
     <SUITE FILE_PATH="coverage/Selforder$app__1_.coverage" NAME="app_y Coverage Results" MODIFIED="1635357116612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov5_flask_integration" />
-    <SUITE FILE_PATH="coverage/Flask_API$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1635748874960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommender_CS" />
+    <SUITE FILE_PATH="coverage/Flask_API$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1635749244568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommender_CS" />
     <SUITE FILE_PATH="coverage/Flask_API$recommender.coverage" NAME="recommender Coverage Results" MODIFIED="1635748964805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recommender_CS" />
   </component>
 </project>
