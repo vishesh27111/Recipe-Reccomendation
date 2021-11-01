@@ -2,7 +2,8 @@ from flask import Flask, jsonify
 from flask_restful import Api, reqparse, Resource
 import bigbasket
 import json
-# from detect import *
+from yolov5_flask_integration.yolov5.detect import *
+from Recommender_CS.recommender import *
 
 app = Flask(__name__)
 api = Api(app)
@@ -59,34 +60,53 @@ class Checkout(Resource):
 
 api.add_resource(Checkout, '/self_order/checkout')
 
-# class Detection(Resource):
-#
-#     @staticmethod
-#     def get():
-#         output = main(parse_opt())
-#         final = output.split()
-#         with open("yolov5_flask_integration/yolov5/classes.txt", "r") as a_file:
-#             list_of_lists = []
-#             for line in a_file:
-#                 stripped_line = line.strip()
-#                 line_list = stripped_line.split()
-#                 list_of_lists.append(line_list)
-#
-#         dic = {}
-#         for st in final:
-#             index = 0
-#             for line in list_of_lists:
-#                 if st in line[0]:
-#                     print(st)
-#                     dic1 = {'item': st, "quantity": ''}
-#                     dic[str(index)] = dic1
-#                     if index > 22:
-#                         break
-#                 index += 1
-#         return jsonify(dic)
-#
-#
-# api.add_resource(Detection, '/yolo/detection')
+
+class Detection(Resource):
+
+    @staticmethod
+    def get():
+        output = main(parse_opt())
+        final = output.split()
+        with open("yolov5_flask_integration/yolov5/classes.txt", "r") as a_file:
+            list_of_lists = []
+            for line in a_file:
+                stripped_line = line.strip()
+                line_list = stripped_line.split()
+                list_of_lists.append(line_list)
+
+        dic = {}
+        for st in final:
+            index = 0
+            for line in list_of_lists:
+                if st in line[0]:
+                    print(st)
+                    dic1 = {'item': st, "quantity": ''}
+                    dic[str(index)] = dic1
+                    if index > 22:
+                        break
+                index += 1
+        return jsonify(dic)
+
+
+api.add_resource(Detection, '/yolo/detection')
+
+
+class Recommender(Resource):
+
+    @staticmethod
+    def get():
+        recommendation = recommender()
+        rec = {}
+        i = 0
+        for j in recommendation:
+            rec[i] = j
+            i += 1
+
+        print(rec)
+        return rec
+
+
+api.add_resource(Recommender, '/recommender/content')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
