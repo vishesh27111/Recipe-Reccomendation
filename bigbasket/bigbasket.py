@@ -9,7 +9,6 @@ from selenium.webdriver.common.by import By
 
 # TODO : handle logging
 # TODO : remove elements which are ordered from file
-# TODO : add quantities of items to buy 								####done####
 
 
 def login(browser):
