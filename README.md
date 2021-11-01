@@ -4,4 +4,4 @@ _This module creates api (REST API) for the project with the backend created in 
 
 https://drive.google.com/file/d/16CaHwScpPdl3Z4Komamh2jqT2UG8ZJYN/view?usp=sharing
 
-Thank you 
+Thanks
