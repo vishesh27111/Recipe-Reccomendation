@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from flask_restful import Api, reqparse, Resource
-import bigbasket
+from bigbasket.bigbasket import *
 import json
 from yolov5_flask_integration.yolov5.detect import *
 from Recommender_CS.recommender import *
