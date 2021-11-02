@@ -4,6 +4,7 @@ import bigbasket
 import json
 from yolov5_flask_integration.yolov5.detect import *
 from Recommender_CS.recommender import *
+from Recommender_Knn.recommender_knn import *
 
 app = Flask(__name__)
 api = Api(app)
@@ -108,5 +109,23 @@ class Recommender(Resource):
 
 api.add_resource(Recommender, '/recommender/content')
 
+
+class RecommenderKnn(Resource):
+
+    @staticmethod
+    def get():
+        recommendations_knn = recommender_knn()
+        rec_knn = {}
+        i = 0
+        for j in recommendations_knn:
+            rec_knn[i] = j
+            i += 1
+
+        return jsonify(rec_knn)
+
+
+api.add_resource(RecommenderKnn, '/recommender/collaborative')
+
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(debug=True)
