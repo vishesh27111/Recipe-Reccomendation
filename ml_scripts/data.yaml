@@ -1,0 +1,25 @@
+train: /content/content/data/images/train
+val: /content/content/data/images/test
+nc: 22
+names: ['Apple',
+'Banana',
+'Bellpepper',
+'Broccoli',
+'Cabbage',
+'Carrot',
+'Cauliflower',
+'Cheese',
+'Corn',
+'Cucumber',
+'Grape',
+'Ladyfinger',
+'Lemon',
+'Mango',
+'Milk',
+'Orange',
+'Pear',
+'Pineapple',
+'Strawberry',
+'Tomato',
+'Watermelon',
+'Egg']
