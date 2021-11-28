@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "130907271731",
+    "project_id": "loginfirebase-3f2f7",
+    "storage_bucket": "loginfirebase-3f2f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130907271731:android:b10b8de603026bf25ca946",
+        "android_client_info": {
+          "package_name": "scet.recipereccomendation.loginfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130907271731-3okkiv4eh5ids96a8pf6r3av4a1rj36f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdS_lNlFyNfXLKNGtvRY18d3qCn1fpQ-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130907271731-3okkiv4eh5ids96a8pf6r3av4a1rj36f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
