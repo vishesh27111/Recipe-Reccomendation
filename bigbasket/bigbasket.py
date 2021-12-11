@@ -1,10 +1,10 @@
-from selenium import webdriver
+import json
 import re
 import time
-# import datetime
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 
 # TODO : handle logging
@@ -77,23 +77,14 @@ def checkout(browser):
 
 def get_shopping_list():
     # print(str(datetime.datetime.now()), ': Getting shopping list')
-    with open('bigbasket/shopping_list', 'r') as f:
-        f1 = f.readlines()
-        shopping_list = []
-        quantity_list = []
-        for line in f1:
-            shopping_list.append(line.split()[0])
-            quantity_list.append(int(line.split()[1]))
+    items = json.load(open('bigbasket/items.json'))
+    shopping_list = []
+    quantity_list = []
+    for key in items.keys():
+        shopping_list.append(items[key]['item'])
+        quantity_list.append(int(items[key]['quantity']))
     return shopping_list, quantity_list
 
-
-def add(item):
-    # print(str(datetime.datetime.now()), ' : Adding item to shopping list')
-    f = open('shopping_list', 'a')
-    item = item + '\n'
-    f.write(item)
-    f.close()
-    return
 
 
 def main():
